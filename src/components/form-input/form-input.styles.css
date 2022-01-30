@@ -1,0 +1,5 @@
+.form-input-container {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
