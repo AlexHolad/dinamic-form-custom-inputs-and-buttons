@@ -20,8 +20,9 @@ const SignIn = () => {
     });
   };
   const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData({ [name]: value });
+    const { value, name } = event.target;
+    
+    setFormData({...formData, [name]: value });
   };
 
   return (
